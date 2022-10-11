@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component renders matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="fluid-container mNavbar"
+  >
+    <ul>
+      <li
+        class="mBrand"
+      >
+        <button
+          data-testid="developer"
+        >
+          Matt Weber
+        </button>
+      </li>
+      <li>
+        <button
+          class="navActive"
+          data-testid="about"
+        >
+          About Me
+        </button>
+      </li>
+      <li>
+        <button
+          class="false"
+          data-testid="portfolio"
+        >
+          Portfolio
+        </button>
+      </li>
+      <li>
+        <button
+          class="false"
+          data-testid="contact"
+        >
+          Contact
+        </button>
+      </li>
+      <li>
+        <button
+          class="false"
+          data-testid="resume"
+        >
+          Resume
+        </button>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

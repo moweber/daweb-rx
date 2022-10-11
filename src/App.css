@@ -1,18 +1,72 @@
-.App {
+.mApp {
   text-align: left;
   min-height: 100vh;
-  background-color: rgb(245,246,247) ;
+  background-color: rgb(245,246,247);
 }
 
-.App-header {
+.mHeader {
   background-color: #3f51b5;
-  min-height: 6rem;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: left;
-  font-size: calc(10px + 2vmin);
-  color: white;
   padding:2rem;
+  margin: 0 auto;
+}
+
+.mNavbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: baseline;
+  margin:0;
+  padding:0;
+}
+
+.mNavbar li {
+  text-align: center;
+  font-family: Comfortaa, sans-serif;
+  font-size: 1.7rem;
+  flex: 1;
+  margin:0;
+  padding:0;
+}
+
+.mNavbar li.mBrand {
+  font-size: 2.3rem;
+  color: whitesmoke;
+}
+
+.mNavbar li.mBrand button {
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.mNavbar li.mBrand button:hover {
+  color: white;
+}
+
+.mNavbar button {
+  color: white;
+  text-decoration: none;
+  border:none;
+  background: none;
+}
+
+.mNavbar button:hover,
+.mNavbar button.navActive {
+    color: #ff9900;
+}
+
+.mContent {
+  margin: 4rem 2rem 0 2rem;
+}
+
+.mContent p {
+  line-height: 2.0rem;
+  font-size: 1.6rem;
+}
+
+.mAvatar {
+  margin: 0 0 20px 20px;
+  float: right;
+  border-radius: 35%;
+  height: 240px;
+  width: 240px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
 }
 
