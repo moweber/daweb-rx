@@ -70,3 +70,25 @@
   box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
 }
 
+.mFooter {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;    
+  background-color: #2f3d7f;
+  width: 100%;
+  height: 70px;
+  font-size: 2.75em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mFooter a {
+  color: #3f51b5;
+  margin: 15px 5% 0 0;
+  text-decoration: none;
+}
+
+.mFooter a:hover {
+  color: #ff9900;
+}
