@@ -2,6 +2,8 @@
   text-align: left;
   min-height: 100vh;
   background-color: rgb(245,246,247);
+  position: relative;
+  padding-bottom: 85px;
 }
 
 .mHeader {
@@ -10,9 +12,28 @@
   margin: 0 auto;
 }
 
+.mContent {
+  margin: 4rem 2rem 0 2rem;
+}
+
+.mContent p {
+  line-height: 2.0rem;
+  font-size: 1.6rem;
+}
+
+.mAvatar {
+  margin: 0 0 20px 20px;
+  float: right;
+  border-radius: 35%;
+  height: 240px;
+  width: 240px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+}
+
 .mNavbar ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   margin:0;
   padding:0;
@@ -52,22 +73,63 @@
     color: #ff9900;
 }
 
-.mContent {
-  margin: 4rem 2rem 0 2rem;
+.mPortfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.mContent p {
-  line-height: 2.0rem;
-  font-size: 1.6rem;
+.mProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1vw auto;
+  width:35vw;
+  max-width:600px;
+  height:20vw;
+  box-shadow: 4px 4px 12px gray;
+  background: whitesmoke;
+  margin-bottom: 15px;
+  padding: 0 !important;
+  border: 1px solid #2f3d7f;
+  border-radius: 6px;
 }
 
-.mAvatar {
-  margin: 0 0 20px 20px;
-  float: right;
-  border-radius: 35%;
-  height: 240px;
-  width: 240px;
-  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+.mProject:hover {
+  box-shadow: none;
+}
+
+.mProject h2 {
+  font-size: 1.8rem;
+}
+
+.mProject h2 > a.mProjectSrcLink {
+  font-size: 2rem;
+  margin-left: 10px;
+  vertical-align: super;
+}
+
+.mProject h2 > a.mProjectSrcLink:hover {
+  color: #ff9900;
+}
+
+.mProject h2 > a {
+  text-decoration: none;
+}
+
+.mProject h5 {
+  font-size: 1rem;
+  color: black;
+}
+
+.mProjectLinks {
+  background: rgba(255, 255, 255, 0.7);
+  width: 70%;
+  height: 40%;
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 .mFooter {
