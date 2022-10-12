@@ -14,8 +14,8 @@ function App() {
         <Navbar cSection={cSection} setCSection={setCSection}></Navbar>
       </header>
       <main className="mContent fluid-container">
-        <About></About>
-        <Portfolio />
+        {cSection === "about" && <About></About>}
+        {cSection === "portfolio" && <Portfolio></Portfolio>}
       </main>
       <Footer />
     </div>
