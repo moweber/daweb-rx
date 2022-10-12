@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daweb-rx/static/css/main.00fc30ff.css",
-    "main.js": "/daweb-rx/static/js/main.6e908ca4.js",
+    "main.js": "/daweb-rx/static/js/main.480bb814.js",
     "static/js/787.9b7644b5.chunk.js": "/daweb-rx/static/js/787.9b7644b5.chunk.js",
     "static/media/1.png": "/daweb-rx/static/media/1.a588698a34c89bc9da33.png",
     "static/media/2.png": "/daweb-rx/static/media/2.a588698a34c89bc9da33.png",
@@ -13,11 +13,11 @@
     "static/media/aboutMeAvatar.jpg": "/daweb-rx/static/media/aboutMeAvatar.f56169a700c6531940fe.jpg",
     "index.html": "/daweb-rx/index.html",
     "main.00fc30ff.css.map": "/daweb-rx/static/css/main.00fc30ff.css.map",
-    "main.6e908ca4.js.map": "/daweb-rx/static/js/main.6e908ca4.js.map",
+    "main.480bb814.js.map": "/daweb-rx/static/js/main.480bb814.js.map",
     "787.9b7644b5.chunk.js.map": "/daweb-rx/static/js/787.9b7644b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00fc30ff.css",
-    "static/js/main.6e908ca4.js"
+    "static/js/main.480bb814.js"
   ]
 }
