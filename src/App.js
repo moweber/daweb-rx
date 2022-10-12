@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [cSection, setCSection] = useState("about");
@@ -18,6 +19,7 @@ function App() {
         {cSection === "about" && <About></About>}
         {cSection === "portfolio" && <Portfolio></Portfolio>}
         {cSection === "contact" && <ContactForm></ContactForm>}
+        {cSection === "resume" && <Resume></Resume>}
       </main>
       <Footer />
     </div>
