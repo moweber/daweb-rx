@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [cSection, setCSection] = useState("about");
@@ -14,6 +15,7 @@ function App() {
       </header>
       <main className="mContent fluid-container">
         <About></About>
+        <Portfolio />
       </main>
       <Footer />
     </div>
