@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project is rendering renders 1`] = `
+<DocumentFragment>
+  <div
+    class="mPortfolio"
+  >
+    <div
+      class="mProject"
+      style="background-image: url(0.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+    <div
+      class="mProject"
+      style="background-image: url(1.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+    <div
+      class="mProject"
+      style="background-image: url(2.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+    <div
+      class="mProject"
+      style="background-image: url(3.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+    <div
+      class="mProject"
+      style="background-image: url(4.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+    <div
+      class="mProject"
+      style="background-image: url(5.png);"
+    >
+      <div
+        class="mProjectLinks"
+      >
+        <h2>
+          <a
+            href="https://moweber.github.io/photo-port/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            PROJECT NAME
+          </a>
+          <a
+            aria-label="GitHub Icon"
+            class="fa fa-github mProjectSrcLink"
+            href="https://github.com/moweber/photo-port"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+          </a>
+        </h2>
+        <h5>
+          PROJECT DESCRIPTION
+        </h5>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

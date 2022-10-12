@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import Navbar from "./components/Nav";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
+  const [cSection, setCSection] = useState("about");
+
   return (
-    <div className="App">
-      <header className="App-header">Matt Weber</header>
-      <main className="fluid-container m-4">
-        TODO: Add About, Portfolio, Contact, Resume sections
+    <div className="mApp">
+      <header className="mHeader">
+        <Navbar cSection={cSection} setCSection={setCSection}></Navbar>
+      </header>
+      <main className="mContent fluid-container">
+        {cSection === "about" && <About></About>}
+        {cSection === "portfolio" && <Portfolio></Portfolio>}
+        {cSection === "contact" && <ContactForm></ContactForm>}
+        {cSection === "resume" && <Resume></Resume>}
       </main>
-      TODO: Add Footer
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component renders matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <footer
+    class="mFooter"
+  >
+    <a
+      aria-label="GitHub Icon"
+      class="fa fa-github"
+      href="https://github.com/moweber"
+      rel="noreferrer"
+      target="_blank"
+    >
+       
+    </a>
+    <a
+      aria-label="LinkedIn Icon"
+      class="fa fa-linkedin"
+      href="https://www.linkedin.com/in/matthewoweber/"
+      rel="noreferrer"
+      target="_blank"
+    >
+       
+    </a>
+    <a
+      aria-label="Stack Overflow Icon"
+      class="fa fa-stack-overflow"
+      href="https://stackoverflow.com/users/2676154/matthew-weber"
+      rel="noreferrer"
+      target="_blank"
+    >
+       
+    </a>
+  </footer>
+</DocumentFragment>
+`;

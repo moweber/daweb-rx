@@ -1,18 +1,195 @@
-.App {
+.mApp {
   text-align: left;
   min-height: 100vh;
-  background-color: rgb(245,246,247) ;
+  background-color: rgb(245,246,247);
+  position: relative;
+  padding-bottom: 85px;
 }
 
-.App-header {
+.mHeader {
   background-color: #3f51b5;
-  min-height: 6rem;
+  padding:2rem;
+  margin: 0 auto;
+}
+
+.mContent {
+  margin: 4rem 2rem 0 2rem;
+}
+
+.mContent p, .mContent li {
+  line-height: 2.0rem;
+  font-size: 1.6rem;
+}
+
+.mAvatar {
+  margin: 0 0 20px 20px;
+  float: right;
+  border-radius: 35%;
+  height: 240px;
+  width: 240px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mNavbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin:0;
+  padding:0;
+}
+
+.mNavbar li {
+  text-align: center;
+  font-family: Comfortaa, sans-serif;
+  font-size: 1.7rem;
+  flex: 1;
+  margin:0;
+  padding:0;
+}
+
+.mNavbar li.mBrand {
+  font-size: 2.3rem;
+  color: whitesmoke;
+}
+
+.mNavbar li.mBrand button {
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.mNavbar li.mBrand button:hover {
+  color: white;
+}
+
+.mNavbar button {
+  color: white;
+  text-decoration: none;
+  border:none;
+  background: none;
+}
+
+.mNavbar button:hover,
+.mNavbar button.navActive {
+    color: #ff9900;
+}
+
+.mPortfolio {
   display: flex;
   flex-direction: row;
-  align-items: left;
-  justify-content: left;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding:2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.mProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1vw auto;
+  width:35vw;
+  max-width:600px;
+  height:20vw;
+  box-shadow: 4px 4px 12px gray;
+  background: whitesmoke;
+  margin-bottom: 15px;
+  padding: 0 !important;
+  border: 1px solid #2f3d7f;
+  border-radius: 6px;
+}
+
+.mProject:hover {
+  box-shadow: none;
+}
+
+.mProject h2 {
+  font-size: 1.8rem;
+}
+
+.mProject h2 > a.mProjectSrcLink {
+  font-size: 2rem;
+  margin-left: 10px;
+  vertical-align: super;
+}
+
+.mProject h2 > a.mProjectSrcLink:hover {
+  color: #ff9900;
+}
+
+.mProject h2 > a {
+  text-decoration: none;
+}
+
+.mProject h5 {
+  font-size: 1rem;
+  color: black;
+}
+
+.mProjectLinks {
+  background: rgba(255, 255, 255, 0.7);
+  width: 70%;
+  height: 40%;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.mContact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form {
+  width: 50vw;
+}
+
+.error-text {
+  color: #ff9900;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+  background-color: #3f51b5!important;
+  border-color: #ff9900!important;
+}
+
+.btn-primary:hover {
+  margin-top: 1rem;
+  background-color: #ff9900!important;
+  border-color: #2f3d7f!important;
+}
+
+.mResume h1, mResume a {
+  color:#ff9900;
+}
+
+.mResume {
+  color:#2f3d7f;
+}
+
+.mResume ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.mFooter {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;    
+  background-color: #2f3d7f;
+  width: 100%;
+  height: 70px;
+  font-size: 2.75em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mFooter a {
+  color: #3f51b5;
+  margin: 15px 5% 0 0;
+  text-decoration: none;
+}
+
+.mFooter a:hover {
+  color: #ff9900;
+}
