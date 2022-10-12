@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/daweb-rx/static/css/main.00fc30ff.css",
-    "main.js": "/daweb-rx/static/js/main.22636696.js",
+    "main.js": "/daweb-rx/static/js/main.6e908ca4.js",
     "static/js/787.9b7644b5.chunk.js": "/daweb-rx/static/js/787.9b7644b5.chunk.js",
-    "static/media/0.png": "/daweb-rx/static/media/0.a588698a34c89bc9da33.png",
     "static/media/1.png": "/daweb-rx/static/media/1.a588698a34c89bc9da33.png",
     "static/media/2.png": "/daweb-rx/static/media/2.a588698a34c89bc9da33.png",
     "static/media/3.png": "/daweb-rx/static/media/3.a588698a34c89bc9da33.png",
     "static/media/4.png": "/daweb-rx/static/media/4.a588698a34c89bc9da33.png",
     "static/media/5.png": "/daweb-rx/static/media/5.a588698a34c89bc9da33.png",
+    "static/media/0.png": "/daweb-rx/static/media/0.e292f91c90046376e8a3.png",
     "static/media/resume.pdf": "/daweb-rx/static/media/resume.135f5b8dd88f49ab351d.pdf",
     "static/media/aboutMeAvatar.jpg": "/daweb-rx/static/media/aboutMeAvatar.f56169a700c6531940fe.jpg",
     "index.html": "/daweb-rx/index.html",
     "main.00fc30ff.css.map": "/daweb-rx/static/css/main.00fc30ff.css.map",
-    "main.22636696.js.map": "/daweb-rx/static/js/main.22636696.js.map",
+    "main.6e908ca4.js.map": "/daweb-rx/static/js/main.6e908ca4.js.map",
     "787.9b7644b5.chunk.js.map": "/daweb-rx/static/js/787.9b7644b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00fc30ff.css",
-    "static/js/main.22636696.js"
+    "static/js/main.6e908ca4.js"
   ]
 }
