@@ -3,7 +3,7 @@ import aboutMeAvatar from "../../assets/aboutMeAvatar.jpg";
 
 function About() {
   return (
-    <div className="container">
+    <section className="container">
       <img className="mAvatar" src={aboutMeAvatar} alt="Matt Weber Avatar" />
       <p>
         My career began as a sales engineer and drafter in manufacturing,
@@ -35,7 +35,7 @@ function About() {
         the concept of leading by example, I can inspire those around me to
         great success.
       </p>
-    </div>
+    </section>
   );
 }
 

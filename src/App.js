@@ -4,6 +4,7 @@ import Navbar from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import ContactForm from "./components/Contact";
 
 function App() {
   const [cSection, setCSection] = useState("about");
@@ -16,6 +17,7 @@ function App() {
       <main className="mContent fluid-container">
         {cSection === "about" && <About></About>}
         {cSection === "portfolio" && <Portfolio></Portfolio>}
+        {cSection === "contact" && <ContactForm></ContactForm>}
       </main>
       <Footer />
     </div>

@@ -2,7 +2,7 @@
 
 exports[`About component renders matches snapshot DOM node structure 1`] = `
 <DocumentFragment>
-  <div
+  <section
     class="container"
   >
     <img
@@ -19,6 +19,6 @@ exports[`About component renders matches snapshot DOM node structure 1`] = `
     <p>
       My experience as an AutoCAD drafter and graphic designer have made me deft at generating visual aids, like flowcharts, when training staff or evangelizing a proposal. My greatest strength is being able to communicate well with both technical and business-leaning colleagues. I am a skilled instructor who has the patience and people skills to pass on my knowledge to others. Because my leadership skills are rooted in the concept of leading by example, I can inspire those around me to great success.
     </p>
-  </div>
+  </section>
 </DocumentFragment>
 `;
