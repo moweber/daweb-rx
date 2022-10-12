@@ -7,8 +7,8 @@ const Project = () => {
       name: "React Pathway Portfolio",
       description:
         "This project explored the basics of building a React app and deploying it to GitHub pages.",
-      liveLink: "https://moweber.github.io/photo-port/",
-      srcLink: "https://github.com/moweber/photo-port",
+      liveLink: "https://moweber.github.io/daweb-rx/",
+      srcLink: "https://github.com/moweber/daweb-rx",
     },
     {
       id: 1,
