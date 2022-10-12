@@ -4,15 +4,17 @@ const Project = () => {
   const [projects] = useState([
     {
       id: 0,
-      name: "PROJECT NAME",
-      description: "PROJECT DESCRIPTION",
+      name: "React Pathway Portfolio",
+      description:
+        "This project explored the basics of building a React app and deploying it to GitHub pages.",
       liveLink: "https://moweber.github.io/photo-port/",
       srcLink: "https://github.com/moweber/photo-port",
     },
     {
       id: 1,
-      name: "PROJECT NAME",
-      description: "PROJECT DESCRIPTION",
+      name: "Oh Snap",
+      description:
+        "This was a practice project created while learning React concepts.",
       liveLink: "https://moweber.github.io/photo-port/",
       srcLink: "https://github.com/moweber/photo-port",
     },
